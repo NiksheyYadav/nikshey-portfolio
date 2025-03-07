@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  /*--background: rgba(0 0% 0% 0.7);*/
+  --foreground: 0 0% 100%;
+  --primary: 180 100% 50%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 300 100% 50%;
+  --secondary-foreground: 0 0% 0%;
+  --accent: 60 100% 50%;
+  --accent-foreground: 0 0% 0%;
+}
+
+/*.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency value here */
+}*/
+
+/*.bg-translucent-black {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency value here */
+}*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+}
+
